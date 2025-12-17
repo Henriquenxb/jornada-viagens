@@ -50,6 +50,13 @@ body{
     color: var(--text-primary-color);
 }
 
+
+.section-title {
+    margin-bottom: 32px;
+    width: 312px;
+    margin: 0 auto;
+}
+
 .section-title h2{
     font-size: 28px;
     font-weight: var(--titles-weight);
@@ -87,9 +94,18 @@ body{
         font-size: 32px;
     }
     
+    .section-title {
+        width: 100%;
+    }
+
+
 }
 
 @media screen and (min-width: 1024px){
+    .section-title {
+        width: 100%;
+    }
+
     .button:hover{
         background-color: var(--primary-color);
     }
