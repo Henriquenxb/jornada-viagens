@@ -1,0 +1,122 @@
+.destinations{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-bottom: 80px;
+    margin: 0 auto;
+}
+
+.destinations-items{
+    width: 312px;
+    height: 754px;
+    margin: 0 auto;
+}
+
+.destinations-items header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: transparent;
+    position: static;
+    padding: 0px;
+    margin-bottom: 24px;
+    width: 100%;
+    align-items: start;    
+}
+
+.destinations-items h4{
+    line-height: 34px;
+    margin: 0;
+    font-weight: var(--titles-weight);
+    margin-top: 24px;
+    
+}
+
+.destinations-items p{
+    display: inline-block;
+    margin: 0 0 24px 0;
+    line-height: 32px;
+}
+
+
+
+.img-item-tokyo{
+    background: url(../img/Tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 312px;
+}
+
+.img-item-osaka{
+    background: url(../img/Osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 360px;
+    width: 312px;
+}
+
+.destinations-items .button{
+    width: 312px;
+    text-align: center;
+}
+
+.destinations-items article{
+    margin-bottom:  40px;
+}
+
+@media screen and (min-width: 768px){
+    .img-item-tokyo{
+        height: 452px;
+        width: 648px;
+    }
+
+    .img-item-osaka{
+        height: 452px;
+        width: 648px;
+    }
+
+    .destinations-items{
+        width: 648px;
+    }
+
+    .destinations-items header{
+        width: 648px;  
+    }
+
+    .destinations-items article{
+        width: 648px;  
+    }
+}
+
+@media screen  and (min-width:1440px){
+    .destinations{
+        width: 100%;;
+    }
+
+    .destinations-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 24px;
+        width: 100%;
+        justify-content: center;
+        
+    }
+
+    .img-item-tokyo{
+        height: 452px;
+        width: 588px;
+    }
+
+    .img-item-osaka{
+        height: 452px;
+        width: 588px;
+    }
+
+    .destinations-items header{
+        width: 588px;  
+    }
+
+    .destinations-items article{
+        width: 588px;  
+    }
+}
