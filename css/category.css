@@ -58,6 +58,19 @@
     justify-content: center;
     align-items: center;
     background-color: var(--background-secondary-color);
+    margin: 0 auto;
+}
+
+
+.inter{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img-inter{
+    margin-bottom: 30px;
 }
 
 .category-card img{
