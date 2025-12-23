@@ -1,7 +1,7 @@
 .destinations{
     display: block;
     width: auto;
-    height: auto;
+    height: 1740px;
     margin-bottom: 80px;
     margin: 0 auto;
 }
@@ -25,17 +25,13 @@
 }
 
 .destinations-items h4{
-    line-height: 34px;
     margin: 0;
-    font-weight: var(--titles-weight);
     margin-top: 24px;
-    
 }
 
 .destinations-items p{
     display: inline-block;
     margin: 0 0 24px 0;
-    line-height: 32px;
 }
 
 
@@ -89,7 +85,8 @@
 
 @media screen  and (min-width:1440px){
     .destinations{
-        width: 100%;;
+        width: 100%;
+        height: 900px;
     }
 
     .destinations-items{
