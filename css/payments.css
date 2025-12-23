@@ -1,0 +1,93 @@
+.img-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 254px 182px;
+    grid-template-areas: 
+    "div div"
+    "div div";
+
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.luggage{
+    background: url(../img/bg-img-luggage-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 1;
+    width: 144px;
+    height: 254px;
+}
+.passport{
+    background: url(../img/bg-img-passport-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 1;
+    width: 144px;
+    height: 254px;
+}
+.people{
+    background: url(../img/bg-img-people-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: span 2;
+    width: 312px;
+    height: 182px;
+}
+
+
+@media screen and (min-width: 768px){
+    .img-content{
+        height: 460px;
+        gap: 24px;
+    }
+
+    .luggage{
+        width: 312px;
+        height: 254px;
+        background: url(../img/bg-img-luggage-tablet.png);
+    }
+
+    .passport{
+        width: 312px;
+        height: 254px;
+        background: url(../img/bg-img-passport-tablet.png);
+    }
+
+    .people{
+        width: 648px;
+        height: 182px;
+        background: url(../img/bg-img-people-tablet.png);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .payments{
+        max-width: 648px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .img-content{
+        height: 460px;
+    }
+    
+    .luggage{
+        background: url(../img/bg-img-luggage-desktop.png);
+        width: 384px;
+        height: 254px;
+    }
+
+    .passport{
+        background: url(../img/bg-img-passport-desktop.png);
+        width: 384px;
+        height: 254px;
+    }
+
+    .people{
+        background: url(../img/bg-img-peolpe-desktop.png);
+        width: 790px;
+        height: 182px;
+    }
+}
+
