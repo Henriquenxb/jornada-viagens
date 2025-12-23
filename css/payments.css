@@ -1,13 +1,18 @@
 .img-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 254px 182px;
+    grid-template-rows: 304px 254px 182px;
     grid-template-areas: 
+    "div div"
     "div div"
     "div div";
 
     margin: 0 auto;
     gap: 24px;
+}
+
+.text-payments{
+    grid-column: span 2;
 }
 
 .luggage{
@@ -40,6 +45,7 @@
     .img-content{
         height: 460px;
         gap: 24px;
+        grid-template-rows: 170px 254px 182px;
     }
 
     .luggage{
@@ -68,10 +74,24 @@
 }
 
 @media screen and (min-width: 1440px){
+    .payments{
+        max-width: 1198px;
+    }
+
     .img-content{
-        height: 460px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 254px 182px;
+        grid-template-areas: 
+        "div div div"
+        "div div div";
     }
     
+    .text-payments{
+        grid-column: span 1;
+        grid-row: span 2;
+    }
+
     .luggage{
         background: url(../img/bg-img-luggage-desktop.png);
         width: 384px;
