@@ -1,3 +1,6 @@
+.payments{
+    margin-bottom: 80px;
+}
 .img-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +45,10 @@
 
 
 @media screen and (min-width: 768px){
+    .payments{
+        height: 750px;
+    }
+
     .img-content{
         height: 460px;
         gap: 24px;
@@ -70,12 +77,14 @@
 @media screen and (min-width: 1024px){
     .payments{
         max-width: 648px;
+        height: 750px;
     }
 }
 
 @media screen and (min-width: 1440px){
     .payments{
         max-width: 1198px;
+        height: 560px;
     }
 
     .img-content{
